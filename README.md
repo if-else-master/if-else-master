@@ -9,7 +9,7 @@ This is my instagram：https://www.instagram.com/rayc57429/
 <div></div>
 About me<br>
 Hi everyone! I’m Zhang Jinghang, a genius high school student who commutes daily between Zhongli and Taipei, currently studying at Taipei City Digital Experimental High School. My interests and skills span across IoT, artificial intelligence, AWS cloud computing, web technologies, software design, blockchain—basically all the hottest topics in tech. I’m also passionate about 3D printing, Blender modeling, maker projects, and the fusion of virtual and augmented reality (AR/VR). In short, I’m the poster child of tech geeks. My life motto? There’s no shortcut to success, but there’s no commuting without Wi-Fi!
-
+<div></div>
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=if-else-master&bg_color=fff9d1&color=ff0000&line=ff6600&point=000000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 [![trophy](https://github-profile-trophy.vercel.app/?username=if-else-master&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 ![](https://raw.githubusercontent.com/jyhsu2000/jyhsu2000/output/github-contribution-grid-snake.svg)
