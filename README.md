@@ -1,6 +1,7 @@
 ## Hi there 👋
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=if-else-master&bg_color=fff9d1&color=ff0000&line=ff6600&point=000000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 <!--
 **if-else-master/if-else-master** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
