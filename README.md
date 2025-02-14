@@ -13,6 +13,7 @@ Hi everyone! I’m Zhang Jinghang, a genius high school student who commutes dai
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=if-else-master&bg_color=000000&color=af79ab&line=f2f2f2&point=ffbdbd&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 [![trophy](https://github-profile-trophy.vercel.app/?username=if-else-master&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 ![](https://raw.githubusercontent.com/jyhsu2000/jyhsu2000/output/github-contribution-grid-snake.svg)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
 [![Raymond github stats](https://github-readme-stats.vercel.app/api?username=if-else-master&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
