@@ -1,6 +1,6 @@
 ## Hi there I am Raymond 👋
 
-This is my blog：https://if-else-master.github.io/rayblog.github.io/<br>
+This is my blog：https://if-else-master.github.io/RayBlog/<br>
 This is my instagram：https://www.instagram.com/rayc57429/
 
 
