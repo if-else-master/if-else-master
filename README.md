@@ -5,7 +5,7 @@ This is my instagram：https://www.instagram.com/rayc57429/
 
 
 關於我<br>
-嗨，大家好，我是每天通勤於中壢台北兩地的天才高中生張靖杭，目前就讀於台北市立數位實驗高中。興趣和專長涵蓋了物聯網、人工智慧、AWS雲端運算、網頁技術、軟體設計、區塊鏈等科技圈的熱門話題，還熱衷於 3D 列印、Blender 建模、創客搞事、以及 ARVR 虛實結合，簡單來說就是科技宅的代言人。我的人生座右銘：成功沒有捷徑，但通勤不能沒有 Wi-Fi！
+嗨，大家好，我是每天通勤於中壢台北兩地的天才高中生張靖杭，目前就讀於台北市立數位實驗高中。興趣和專長涵蓋了物聯網、人工智慧、AWS雲端運算、網頁技術、軟體設計、區塊鏈等科技圈的熱門話題，還熱衷於 3D 列印、Blender 建模、創客搞事、以及 ARVR 虛實結合，簡單來說就是科技宅的代言人。我的人生座右銘：成功沒有捷徑，通勤一定要有 Wi-Fi！
 <div></div>
 About me<br>
 Hi everyone! I’m Zhang Jinghang, a genius high school student who commutes daily between Zhongli and Taipei, currently studying at Taipei City Digital Experimental High School. My interests and skills span across IoT, artificial intelligence, AWS cloud computing, web technologies, software design, blockchain—basically all the hottest topics in tech. I’m also passionate about 3D printing, Blender modeling, maker projects, and the fusion of virtual and augmented reality (AR/VR). In short, I’m the poster child of tech geeks. My life motto? There’s no shortcut to success, but there’s no commuting without Wi-Fi!
