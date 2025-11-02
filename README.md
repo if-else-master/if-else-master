@@ -1,7 +1,6 @@
 ## Hi there I am Raymond 👋
 
 This is my blog：https://ifelsemaster.me/<br>
-This is my instagram：https://www.instagram.com/rayc57429/
 
 
 關於我<br>
