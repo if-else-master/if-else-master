@@ -9,11 +9,11 @@ This is my blog：https://ifelsemaster.me/<br>
 About me<br>
 Hi everyone! I’m Zhang Jinghang, a genius high school student who commutes daily between Zhongli and Taipei, currently studying at Taipei City Digital Experimental High School. My interests and skills span across IoT, artificial intelligence, AWS cloud computing, web technologies, software design, blockchain—basically all the hottest topics in tech. I’m also passionate about 3D printing, Blender modeling, maker projects, and the fusion of virtual and augmented reality (AR/VR). In short, I’m the poster child of tech geeks. My life motto? There’s no shortcut to success, but there’s no commuting without Wi-Fi!
 
-[![ifelsemaster GitHub stats](https://github-readme-stats.vercel.app/api?username=if-else-master)](https://github.com/if-else-master/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=if-else-master&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 [![trophy](https://github-profile-trophy.vercel.app/?username=if-else-master&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-![](https://raw.githubusercontent.com/jyhsu2000/jyhsu2000/output/github-contribution-grid-snake.svg)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=if-else-master&layout=compact)
-[![Raymond github stats](https://github-readme-stats.vercel.app/api?username=if-else-master&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=if-else-master&theme=radical)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=if-else-master&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+![Snake animation](https://raw.githubusercontent.com/if-else-master/if-else-master/output/github-contribution-grid-snake.svg)
 
 <!--
 **if-else-master/if-else-master** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
