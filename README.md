@@ -35,9 +35,14 @@ Hi everyone! I’m Zhang Jinghang, a genius high school student who commutes dai
 
 <h3 align="left">Profile Card</h3>
 
-<p><img align="left" src="https://raw.githubusercontent.com/if-else-master/if-else-master/refs/heads/main/dist/stats.svg" alt="if-else-master" style="Height: 150px"/></p>
+<!-- <p><img align="left" src="https://raw.githubusercontent.com/if-else-master/if-else-master/refs/heads/main/dist/stats.svg" alt="if-else-master" style="Height: 150px"/></p> -->
 
-<p>&nbsp;<img align="center" src="https://raw.githubusercontent.com/if-else-master/if-else-master/refs/heads/main/dist/top-langs.svg" alt="if-else-master" style="Height: 150px"/></p>
+<!-- <p>&nbsp;<img align="center" src="https://raw.githubusercontent.com/if-else-master/if-else-master/refs/heads/main/dist/top-langs.svg" alt="if-else-master" style="Height: 150px"/></p> -->
+
+<picture>
+  <source srcset="https://raw.githubusercontent.com/if-else-master/if-else-master/main/output/stats_commits.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/if-else-master/if-else-master/main/output/stats_commits.svg">
+</picture>
 
 <!--
 <p><img align="center" src="https://github-readme-streak-stats-olive-rho.vercel.app/?user=1pingsun&" alt="1pingsun" /></p>
