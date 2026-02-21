@@ -1,0 +1,106 @@
+name: 更新 GitHub Profile 動態內容
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  # ── Job 1：產生貢獻蛇形動畫 ──────────────────────────────────
+  generate-snake:
+    name: 產生貢獻蛇形動畫
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: 推送蛇形動畫到 GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git diff --cached --quiet || git commit -m "更新貢獻蛇形動畫"
+          git pull --rebase --autostash
+          git push
+
+  # ── Job 2：產生 Stats、Top Langs、Pin 卡片 ───────────────────
+  generate-stats:
+    name: 產生 GitHub Readme Stats 卡片
+    runs-on: ubuntu-latest
+    needs: generate-snake
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: 產生 Stats 卡片
+        uses: stats-organization/github-readme-stats-action@v1.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 產生 Top Languages 卡片
+        uses: stats-organization/github-readme-stats-action@v1.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 產生 ifelsemaster 卡片
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=HackMaster-Pi
+          path: dist/pin-HackMaster-Pi.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 推送 Stats 卡片到 GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git diff --cached --quiet || git commit -m "更新 GitHub Readme Stats 卡片"
+          git pull --rebase --autostash
+          git push
+
+  # ── Job 3：產生 Trophy 卡片 ──────────────────────────────────
+  generate-trophy:
+    name: 產生 GitHub Profile Trophy
+    runs-on: ubuntu-latest
+    needs: generate-stats
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: 產生 Trophy 卡片
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: username=${{ github.repository_owner }}
+          path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 推送 Trophy 卡片到 GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git diff --cached --quiet || git commit -m "更新 GitHub Profile Trophy"
+          git pull --rebase --autostash
+          git push
