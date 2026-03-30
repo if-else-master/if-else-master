@@ -39,7 +39,7 @@ Hi everyone! I’m Zhang Jinghang, a genius high school student who commutes dai
 
 <!-- <p>&nbsp;<img align="center" src="https://raw.githubusercontent.com/if-else-master/if-else-master/refs/heads/main/dist/top-langs.svg" alt="if-else-master" style="Height: 150px"/></p> -->
 
-[![if-else-master GitHub stats](https://github-readme-stats.vercel.app/api?username=if-else-master&show_icons=true&theme=radical)](https://github.com/if-else-master)
+[![if-else-master GitHub stats](dist/stats.svg)](https://github.com/if-else-master)
 
 <!--
 <p><img align="center" src="https://github-readme-streak-stats-olive-rho.vercel.app/?user=1pingsun&" alt="1pingsun" /></p>
