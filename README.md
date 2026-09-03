@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Raymond</h1>
 <h3 align="center">A student at Taipei Digital Experimental High School in Taiwan.</h3>
 
-This is my blog：https://ifelsemaster.me/<br>
+This is my blog：https://ifelsemaster.org/<br>
 
 
 關於我<br>
